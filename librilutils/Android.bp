@@ -1,5 +1,9 @@
 // Copyright 2013 The Android Open Source Project
 
+soong_namespace {
+    imports: ["hardware/ril-caf"],
+}
+
 cc_library {
     name: "librilutils",
 
